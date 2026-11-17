@@ -5,6 +5,10 @@ public class Calculadora {
     // === ZONA USUARIO B ===
 
     // === ZONA USUARIO C ===
+	public double multiplicar(double a, double b) {
+    		return a * b;
+	}
+
 
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
