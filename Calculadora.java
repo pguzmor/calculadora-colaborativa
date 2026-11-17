@@ -4,6 +4,10 @@ public class Calculadora {
     public double sumar(double a, double b) {
     return a + b;
     }
+    public double dividir(double a, double b) {
+    return a / b;
+    }
+
 
     // === ZONA USUARIO B ===
     public double restar(double a, double b) {
