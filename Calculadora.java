@@ -1,6 +1,9 @@
 public class Calculadora {
 
     // === ZONA USUARIO A ===
+    public double sumar(double a, double b) {
+    return a + b;
+    }
 
     // === ZONA USUARIO B ===
 
