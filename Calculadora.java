@@ -18,6 +18,6 @@ public class Calculadora {
 
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        System.out.println("Iniciando calculadora...");
+        System.out.println("Calculadora v1.0 - Desarrollada por Equipo A");
     }
 }
