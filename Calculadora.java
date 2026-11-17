@@ -3,6 +3,9 @@ public class Calculadora {
     // === ZONA USUARIO A ===
 
     // === ZONA USUARIO B ===
+    public double restar(double a, double b) {
+        return a - b;
+    }
 
     // === ZONA USUARIO C ===
 
