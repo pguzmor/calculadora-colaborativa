@@ -18,6 +18,7 @@ public class Calculadora {
 
     public static void main(String[] args) {
         Calculadora calc = new Calculadora();
-        System.out.println("Iniciando calculadora...");
+	System.out.println("Bienvenido a la Aplicación Calculadora Java");
+	
     }
 }
