@@ -13,6 +13,13 @@ public class Calculadora {
     public double restar(double a, double b) {
         return a - b;
     }
+    
+    private String ultimaOperacion = "Ninguna";
+
+    public String getUltimaOperacion() {
+    	return ultimaOperacion;
+    }
+
 
     // === ZONA USUARIO C ===
 	public double multiplicar(double a, double b) {
