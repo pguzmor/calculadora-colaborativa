@@ -5,8 +5,11 @@ public class Calculadora {
     return a + b;
     }
     public double dividir(double a, double b) {
-    return a / b;
+    if (b == 0) {
+        throw new ArithmeticException("Error: No es posible dividir entre cero.");
     }
+    return a / b;
+}
 
 
     // === ZONA USUARIO B ===
